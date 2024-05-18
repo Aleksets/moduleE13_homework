@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "css-loader": "^6.8.1",
+    "eslint": "^5.16.0",
     "html-webpack-plugin": "^5.5.1",
     "mini-css-extract-plugin": "^2.7.6",
     "webpack": "^5.85.0",
@@ -30,7 +31,6 @@
     "envinfo": "^7.8.1",
     "es-module-lexer": "^1.2.1",
     "escalade": "^3.1.1",
-    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-jest-enzyme": "^6.0.2",
     "eslint-plugin-babel": "^5.1.0",
@@ -116,11 +116,6 @@
     "lint:write": "eslint --debug src/ --fix",
     "prettier": "prettier --write src/**/*.js",
     "prepare": "husky install"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "*.(js|jsx)": [
