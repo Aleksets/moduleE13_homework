@@ -1,4 +1,4 @@
-import *  math from './math.js';
+import * a math from './math.js';
 import './style.css';
 
 const multiply = (a) => a * 5;
