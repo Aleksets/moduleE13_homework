@@ -12,7 +12,7 @@
     "prettier": "^3.2.5",
     "webpack": "^5.85.0",
     "webpack-cli": "^5.1.1",
-    "webpack-dev-server": "^4.15.0"
+    "webpack-dev-server": "^4.15.2"
   },
   "name": "e13.1",
   "version": "1.0.0",
@@ -115,7 +115,7 @@
     "*.{json,js,ts,jsx,tsx,html}": [
       "prettier --write --ignore-unknown"
     ]
-  }, 
+  },
   "author": "Aleksets",
   "license": "ISC"
 }
